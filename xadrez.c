@@ -39,7 +39,7 @@ int main() {
     // Movendo a rainha
     moverRainha(8);
 
-    // Movendo o cavalo com loop complexo
+
     for (int movimento = 0; movimento < 3; movimento++) {
       if (movimento < 2) { // Nos dois primeiros movimentos, vai para a esquerda
           printf("jogada cavalo:\t Esquerda\n");
